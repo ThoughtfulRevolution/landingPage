@@ -14,7 +14,7 @@ body, .header-container, .header-top, .header-links, .header-content-container, 
 
 body {
     flex-direction: column;
-    flex: 1;
+    flex: 1 0 auto;
     justify-content: space-between;
     height: 100vh;
 }
@@ -32,6 +32,17 @@ body {
     padding: 50px 0px;
 }
 
+.header-container img {
+    width: 275px;
+    height: 265px;
+}
+
+.header-content-container {
+    gap: 70px;
+    flex: 0 0 250px;
+}
+
+
 .header-links{
     gap: 8px;
 }
@@ -40,41 +51,73 @@ body {
     width: 450px;
 }
 
+.header-content-details button {
+    margin-top: 10px;
+}
+
+.header-content-container {
+    justify-content: center;
+}
+
 .body-content-container {
     flex-direction: column;
     justify-content: space-between;
+    gap: 8px;
+    flex:1;
     /* border: 2px solid red; */
 }
 
 h1.body-content-header {
 text-align: center;
+padding: 50px 150px 0px;
 }
+
 
 .body-tiles {
     justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 50px 150px;
+    align-items: center;
+
+}
+
+.card {
+    flex-basis: 225px;
+}
+
+.card img {
+    border: 2px solid #3882f6;
+    align-items: b;
+    border-radius: 10px;
 }
 
 .quote {
     flex-direction: column;
     align-items: center;
+    padding: 50px 150px;
+    gap: 8px;
+    margin: 20px 0px;
 }
 
 .ad-container {
     justify-content: center;
     align-self: center;
-    height: 100px;
-    width:600px;
-}
-
-.ad-container {
+    height: 500px;
+    /* width:600px; */
     align-items: center;
+    padding: 50px 150px;
+    margin: 20px ;
+    border-radius: 5px;
 }
 
 .footer-container {
     justify-content: center;
     align-items: center;
-    height: 80px;
+    padding: 30px;
 }
+
+
 
 /* Below is the styling information */
 .header-container, .footer-container {
@@ -106,6 +149,12 @@ button {
     width: 70px;
     height: 40px;
     padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.ad-container button {
+
 }
 
 .body-content-container h1 {
@@ -118,6 +167,12 @@ button {
     font-size: 36px;
     color: #1f2937;
     weight: 300;
+}
+
+.quote p b em{
+    font-size: 20px;
+    align-self: flex-end;
+ 
 }
 
 .quote {
