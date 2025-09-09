@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    /* border: 2px solid red; */
+}
+
+/* Below is the positioning information */
+
+body, .header-container, .header-top, .header-links, .header-content-container, .body-content-container, .body-tiles, .quote,.ad-container, .footer-container {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header-container{
+    flex-direction: column;
+    padding: 15px 150px;
+}
+
+.header-top {
+    justify-content: space-between;
+}
+
+.header-content-details, .header-container img{
+    padding: 50px 0px;
+}
+
+.header-links{
+    gap: 8px;
+}
+
+.header-content-details{
+    width: 450px;
+}
+
+.body-content-container {
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+h1.body-content-header {
+text-align: center;
+}
+
+.body-tiles {
+    justify-content: center;
+}
+
+.quote {
+    flex-direction: column;
+    align-items: center;
+}
+
+.ad-container {
+    justify-content: center;
+    align-self: center;
+    height: 100px;
+    width:600px;
+}
+
+.ad-container {
+    align-items: center;
+}
+
+.footer-container {
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+/* Below is the styling information */
+.header-container, .footer-container {
+    background-color:#1F2937;
+
+}
+
+.header-links a, .header-content-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo, .header-content-container h1, .footer-container {
+    color: #f9faf8;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    background: #3882f6;
+    color: #f9faf8;
+    width: 70px;
+    height: 40px;
+    padding: 5px 10px;
+}
+
+.body-content-container h1 {
+    font-size: 36px;
+    color: #1f2937;
+    weight: 900;
+}
+
+.quote p em{
+    font-size: 36px;
+    color: #1f2937;
+    weight: 300;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.ad-container {
+    background: #3882f6;
+    color: #f9faf8;
+}
+
