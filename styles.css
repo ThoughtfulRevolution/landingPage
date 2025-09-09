@@ -107,13 +107,13 @@ padding: 50px 150px 0px;
     width:auto;
     align-items: center;
     padding: 50px 150px;
-    margin: 20px ;
+    margin: 20px;
     border-radius: 5px;
-    gap: 15px;
+    gap: 20px;
 }
 
 .ad-content {
-    flex: 1
+    flex: 1 0 150px;
 }
 
 .ad-container button {
