@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     flex: 1 0 auto;
     justify-content: space-between;
-    height: 100vh;
+    height: 100dvh;
 }
 
 .header-container{
@@ -113,7 +113,7 @@ padding: 50px 150px 0px;
 }
 
 .ad-content {
-    flex: 1 0 150px;
+    flex: 1 1 150px;
 }
 
 .ad-container button {
