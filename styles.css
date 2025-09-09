@@ -104,11 +104,16 @@ padding: 50px 150px 0px;
     justify-content: center;
     align-self: center;
     height: 500px;
-    /* width:600px; */
+    width:auto;
     align-items: center;
     padding: 50px 150px;
     margin: 20px ;
     border-radius: 5px;
+}
+
+.ad-container button {
+    flex-shrink: 0;
+    margin-left: 10px;
 }
 
 .footer-container {
@@ -151,10 +156,6 @@ button {
     padding: 5px 10px;
     border-radius: 5px;
     border: 1px solid white;
-}
-
-.ad-container button {
-
 }
 
 .body-content-container h1 {
