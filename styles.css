@@ -109,11 +109,15 @@ padding: 50px 150px 0px;
     padding: 50px 150px;
     margin: 20px ;
     border-radius: 5px;
+    gap: 15px;
+}
+
+.ad-content {
+    flex: 1
 }
 
 .ad-container button {
-    flex-shrink: 0;
-    margin-left: 10px;
+    flex-shrink: 0 0 150px;
 }
 
 .footer-container {
